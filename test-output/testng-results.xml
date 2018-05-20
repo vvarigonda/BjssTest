@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="2" ignored="0" total="8" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Test started Running:customerLogin]]>
+    </line>
+    <line>
+      <![CDATA[Test is success:customerLogin]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\sai18\git\TestProject\AutomationSelenium\src\main\java\com\automation\AutomationPractice\success_screenshots\customerLogin_20_05_2018_05_50_00.png'> <img src='C:\Users\sai18\git\TestProject\AutomationSelenium\src\main\java\com\automation\AutomationPractice\success_screenshots\customerLogin_20_05_2018_05_50_00.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Test started Running:purchaseTwoItems]]>
+    </line>
+    <line>
+      <![CDATA[Retrying test purchaseTwoItems with status FAILURE for the 1 time(s).]]>
+    </line>
+    <line>
+      <![CDATA[Test is skipped:purchaseTwoItems]]>
+    </line>
+    <line>
+      <![CDATA[Test started Running:purchaseTwoItems]]>
+    </line>
+    <line>
+      <![CDATA[Retrying test purchaseTwoItems with status FAILURE for the 2 time(s).]]>
+    </line>
+    <line>
+      <![CDATA[Test is skipped:purchaseTwoItems]]>
+    </line>
+    <line>
+      <![CDATA[Test started Running:purchaseTwoItems]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\sai18\git\TestProject\AutomationSelenium\src\main\java\com\automation\AutomationPractice\failure_screenshots\purchaseTwoItems_20_05_2018_05_50_03.png'> <img src='C:\Users\sai18\git\TestProject\AutomationSelenium\src\main\java\com\automation\AutomationPractice\failure_screenshots\purchaseTwoItems_20_05_2018_05_50_03.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Test started Running:customerLogin]]>
+    </line>
+    <line>
+      <![CDATA[Test is success:customerLogin]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\sai18\git\TestProject\AutomationSelenium\src\main\java\com\automation\AutomationPractice\success_screenshots\customerLogin_20_05_2018_05_50_13.png'> <img src='C:\Users\sai18\git\TestProject\AutomationSelenium\src\main\java\com\automation\AutomationPractice\success_screenshots\customerLogin_20_05_2018_05_50_13.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Test started Running:previousOrdersList]]>
+    </line>
+    <line>
+      <![CDATA[Retrying test previousOrdersList with status FAILURE for the 1 time(s).]]>
+    </line>
+    <line>
+      <![CDATA[Test is skipped:previousOrdersList]]>
+    </line>
+    <line>
+      <![CDATA[Test started Running:previousOrdersList]]>
+    </line>
+    <line>
+      <![CDATA[Retrying test previousOrdersList with status FAILURE for the 2 time(s).]]>
+    </line>
+    <line>
+      <![CDATA[Test is skipped:previousOrdersList]]>
+    </line>
+    <line>
+      <![CDATA[Test started Running:previousOrdersList]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\sai18\git\TestProject\AutomationSelenium\src\main\java\com\automation\AutomationPractice\failure_screenshots\previousOrdersList_20_05_2018_05_50_25.png'> <img src='C:\Users\sai18\git\TestProject\AutomationSelenium\src\main\java\com\automation\AutomationPractice\failure_screenshots\previousOrdersList_20_05_2018_05_50_25.png' height='100' width='100'/> </a>]]>
+    </line>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="35615" started-at="2018-05-20T16:49:50Z" finished-at="2018-05-20T16:50:25Z">
+    <groups>
+    </groups>
+    <test name="Purchase" duration-ms="14259" started-at="2018-05-20T16:49:50Z" finished-at="2018-05-20T16:50:04Z">
+      <class name="com.automation.AutomationPractice.TC001_PurchaseTwoItems">
+        <test-method status="PASS" signature="startProcess(java.lang.String)[pri:0, instance:com.automation.AutomationPractice.TC001_PurchaseTwoItems@74ad1f1f]" name="startProcess" is-config="true" duration-ms="7016" started-at="2018-05-20T16:49:50Z" finished-at="2018-05-20T16:49:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startProcess -->
+        <test-method status="PASS" signature="customerLogin()[pri:0, instance:com.automation.AutomationPractice.TC001_PurchaseTwoItems@74ad1f1f]" name="customerLogin" duration-ms="2879" started-at="2018-05-20T16:49:57Z" finished-at="2018-05-20T16:50:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started Running:customerLogin]]>
+            </line>
+            <line>
+              <![CDATA[Test is success:customerLogin]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\sai18\git\TestProject\AutomationSelenium\src\main\java\com\automation\AutomationPractice\success_screenshots\customerLogin_20_05_2018_05_50_00.png'> <img src='C:\Users\sai18\git\TestProject\AutomationSelenium\src\main\java\com\automation\AutomationPractice\success_screenshots\customerLogin_20_05_2018_05_50_00.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customerLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.AutomationPractice.TC001_PurchaseTwoItems@74ad1f1f]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-05-20T16:50:00Z" finished-at="2018-05-20T16:50:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customerLogin status=SUCCESS method=TC001_PurchaseTwoItems.customerLogin()[pri:0, instance:com.automation.AutomationPractice.TC001_PurchaseTwoItems@74ad1f1f] output=Test started Running:customerLogin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="purchaseTwoItems()[pri:1, instance:com.automation.AutomationPractice.TC001_PurchaseTwoItems@74ad1f1f]" name="purchaseTwoItems" duration-ms="1430" started-at="2018-05-20T16:50:00Z" finished-at="2018-05-20T16:50:02Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//td[@id='total_product']"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-BTD2RPM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sai18\AppData\Local\Temp\scoped_dir5532_11409}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f9f9a34700cfe2c69e15fdc962616288
+*** Element info: {Using=xpath, value=//td[@id='total_product']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//td[@id='total_product']"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-BTD2RPM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sai18\AppData\Local\Temp\scoped_dir5532_11409}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f9f9a34700cfe2c69e15fdc962616288
+*** Element info: {Using=xpath, value=//td[@id='total_product']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at com.automation.AutomationPractice.TC001_PurchaseTwoItems.purchaseTwoItems(TC001_PurchaseTwoItems.java:92)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test started Running:purchaseTwoItems]]>
+            </line>
+            <line>
+              <![CDATA[Retrying test purchaseTwoItems with status FAILURE for the 1 time(s).]]>
+            </line>
+            <line>
+              <![CDATA[Test is skipped:purchaseTwoItems]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- purchaseTwoItems -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.AutomationPractice.TC001_PurchaseTwoItems@74ad1f1f]" name="tearDown" is-config="true" duration-ms="2" started-at="2018-05-20T16:50:02Z" finished-at="2018-05-20T16:50:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=purchaseTwoItems status=SKIP method=TC001_PurchaseTwoItems.purchaseTwoItems()[pri:1, instance:com.automation.AutomationPractice.TC001_PurchaseTwoItems@74ad1f1f] output=Test started Running:purchaseTwoItems]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="purchaseTwoItems()[pri:1, instance:com.automation.AutomationPractice.TC001_PurchaseTwoItems@74ad1f1f]" name="purchaseTwoItems" duration-ms="662" started-at="2018-05-20T16:50:02Z" finished-at="2018-05-20T16:50:02Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//td[@id='total_product']"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-BTD2RPM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sai18\AppData\Local\Temp\scoped_dir5532_11409}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f9f9a34700cfe2c69e15fdc962616288
+*** Element info: {Using=xpath, value=//td[@id='total_product']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//td[@id='total_product']"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-BTD2RPM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sai18\AppData\Local\Temp\scoped_dir5532_11409}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f9f9a34700cfe2c69e15fdc962616288
+*** Element info: {Using=xpath, value=//td[@id='total_product']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at com.automation.AutomationPractice.TC001_PurchaseTwoItems.purchaseTwoItems(TC001_PurchaseTwoItems.java:92)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test started Running:purchaseTwoItems]]>
+            </line>
+            <line>
+              <![CDATA[Retrying test purchaseTwoItems with status FAILURE for the 2 time(s).]]>
+            </line>
+            <line>
+              <![CDATA[Test is skipped:purchaseTwoItems]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- purchaseTwoItems -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.AutomationPractice.TC001_PurchaseTwoItems@74ad1f1f]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-05-20T16:50:02Z" finished-at="2018-05-20T16:50:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=purchaseTwoItems status=SKIP method=TC001_PurchaseTwoItems.purchaseTwoItems()[pri:1, instance:com.automation.AutomationPractice.TC001_PurchaseTwoItems@74ad1f1f] output=Test started Running:purchaseTwoItems]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="purchaseTwoItems()[pri:1, instance:com.automation.AutomationPractice.TC001_PurchaseTwoItems@74ad1f1f]" name="purchaseTwoItems" duration-ms="1001" started-at="2018-05-20T16:50:02Z" finished-at="2018-05-20T16:50:03Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//td[@id='total_product']"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-BTD2RPM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sai18\AppData\Local\Temp\scoped_dir5532_11409}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f9f9a34700cfe2c69e15fdc962616288
+*** Element info: {Using=xpath, value=//td[@id='total_product']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//td[@id='total_product']"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-BTD2RPM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sai18\AppData\Local\Temp\scoped_dir5532_11409}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f9f9a34700cfe2c69e15fdc962616288
+*** Element info: {Using=xpath, value=//td[@id='total_product']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at com.automation.AutomationPractice.TC001_PurchaseTwoItems.purchaseTwoItems(TC001_PurchaseTwoItems.java:92)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test started Running:purchaseTwoItems]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\sai18\git\TestProject\AutomationSelenium\src\main\java\com\automation\AutomationPractice\failure_screenshots\purchaseTwoItems_20_05_2018_05_50_03.png'> <img src='C:\Users\sai18\git\TestProject\AutomationSelenium\src\main\java\com\automation\AutomationPractice\failure_screenshots\purchaseTwoItems_20_05_2018_05_50_03.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- purchaseTwoItems -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.AutomationPractice.TC001_PurchaseTwoItems@74ad1f1f]" name="tearDown" is-config="true" duration-ms="306" started-at="2018-05-20T16:50:04Z" finished-at="2018-05-20T16:50:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=purchaseTwoItems status=FAILURE method=TC001_PurchaseTwoItems.purchaseTwoItems()[pri:1, instance:com.automation.AutomationPractice.TC001_PurchaseTwoItems@74ad1f1f] output=Test started Running:purchaseTwoItems]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endProcess()[pri:0, instance:com.automation.AutomationPractice.TC001_PurchaseTwoItems@74ad1f1f]" name="endProcess" is-config="true" duration-ms="173" started-at="2018-05-20T16:50:04Z" finished-at="2018-05-20T16:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endProcess -->
+      </class> <!-- com.automation.AutomationPractice.TC001_PurchaseTwoItems -->
+    </test> <!-- Purchase -->
+    <test name="Previous" duration-ms="21263" started-at="2018-05-20T16:50:04Z" finished-at="2018-05-20T16:50:25Z">
+      <class name="com.automation.AutomationPractice.TC002_PreviousOrders">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.automation.AutomationPractice.TC002_PreviousOrders@22eeefeb]" name="startReport" is-config="true" duration-ms="248" started-at="2018-05-20T16:49:49Z" finished-at="2018-05-20T16:49:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="startProcess(java.lang.String)[pri:0, instance:com.automation.AutomationPractice.TC002_PreviousOrders@22eeefeb]" name="startProcess" is-config="true" duration-ms="6247" started-at="2018-05-20T16:50:04Z" finished-at="2018-05-20T16:50:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startProcess -->
+        <test-method status="PASS" signature="customerLogin()[pri:0, instance:com.automation.AutomationPractice.TC002_PreviousOrders@22eeefeb]" name="customerLogin" duration-ms="2630" started-at="2018-05-20T16:50:10Z" finished-at="2018-05-20T16:50:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started Running:customerLogin]]>
+            </line>
+            <line>
+              <![CDATA[Test is success:customerLogin]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\sai18\git\TestProject\AutomationSelenium\src\main\java\com\automation\AutomationPractice\success_screenshots\customerLogin_20_05_2018_05_50_13.png'> <img src='C:\Users\sai18\git\TestProject\AutomationSelenium\src\main\java\com\automation\AutomationPractice\success_screenshots\customerLogin_20_05_2018_05_50_13.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customerLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.AutomationPractice.TC002_PreviousOrders@22eeefeb]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-05-20T16:50:13Z" finished-at="2018-05-20T16:50:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customerLogin status=SUCCESS method=TC002_PreviousOrders.customerLogin()[pri:0, instance:com.automation.AutomationPractice.TC002_PreviousOrders@22eeefeb] output=Test started Running:customerLogin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="previousOrdersList()[pri:1, instance:com.automation.AutomationPractice.TC002_PreviousOrders@22eeefeb]" name="previousOrdersList" duration-ms="2916" started-at="2018-05-20T16:50:13Z" finished-at="2018-05-20T16:50:16Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='order-detail-content']/table/tbody/tr[1]/td[2]/label"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-BTD2RPM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sai18\AppData\Local\Temp\scoped_dir9164_17626}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9c0f186bbddbcbb220114c15162ce379
+*** Element info: {Using=xpath, value=//*[@id='order-detail-content']/table/tbody/tr[1]/td[2]/label}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='order-detail-content']/table/tbody/tr[1]/td[2]/label"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-BTD2RPM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sai18\AppData\Local\Temp\scoped_dir9164_17626}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9c0f186bbddbcbb220114c15162ce379
+*** Element info: {Using=xpath, value=//*[@id='order-detail-content']/table/tbody/tr[1]/td[2]/label}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at com.automation.AutomationPractice.TC002_PreviousOrders.previousOrdersList(TC002_PreviousOrders.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test started Running:previousOrdersList]]>
+            </line>
+            <line>
+              <![CDATA[Retrying test previousOrdersList with status FAILURE for the 1 time(s).]]>
+            </line>
+            <line>
+              <![CDATA[Test is skipped:previousOrdersList]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- previousOrdersList -->
+        <test-method status="SKIP" signature="previousOrdersList()[pri:1, instance:com.automation.AutomationPractice.TC002_PreviousOrders@22eeefeb]" name="previousOrdersList" duration-ms="4648" started-at="2018-05-20T16:50:16Z" finished-at="2018-05-20T16:50:21Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='order-detail-content']/table/tbody/tr[1]/td[2]/label"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-BTD2RPM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sai18\AppData\Local\Temp\scoped_dir9164_17626}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9c0f186bbddbcbb220114c15162ce379
+*** Element info: {Using=xpath, value=//*[@id='order-detail-content']/table/tbody/tr[1]/td[2]/label}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='order-detail-content']/table/tbody/tr[1]/td[2]/label"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-BTD2RPM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sai18\AppData\Local\Temp\scoped_dir9164_17626}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9c0f186bbddbcbb220114c15162ce379
+*** Element info: {Using=xpath, value=//*[@id='order-detail-content']/table/tbody/tr[1]/td[2]/label}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at com.automation.AutomationPractice.TC002_PreviousOrders.previousOrdersList(TC002_PreviousOrders.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test started Running:previousOrdersList]]>
+            </line>
+            <line>
+              <![CDATA[Retrying test previousOrdersList with status FAILURE for the 2 time(s).]]>
+            </line>
+            <line>
+              <![CDATA[Test is skipped:previousOrdersList]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- previousOrdersList -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.AutomationPractice.TC002_PreviousOrders@22eeefeb]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-05-20T16:50:16Z" finished-at="2018-05-20T16:50:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=previousOrdersList status=SKIP method=TC002_PreviousOrders.previousOrdersList()[pri:1, instance:com.automation.AutomationPractice.TC002_PreviousOrders@22eeefeb] output=Test started Running:previousOrdersList]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.AutomationPractice.TC002_PreviousOrders@22eeefeb]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-05-20T16:50:21Z" finished-at="2018-05-20T16:50:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=previousOrdersList status=SKIP method=TC002_PreviousOrders.previousOrdersList()[pri:1, instance:com.automation.AutomationPractice.TC002_PreviousOrders@22eeefeb] output=Test started Running:previousOrdersList]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="previousOrdersList()[pri:1, instance:com.automation.AutomationPractice.TC002_PreviousOrders@22eeefeb]" name="previousOrdersList" duration-ms="3638" started-at="2018-05-20T16:50:21Z" finished-at="2018-05-20T16:50:25Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='order-detail-content']/table/tbody/tr[1]/td[2]/label"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-BTD2RPM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sai18\AppData\Local\Temp\scoped_dir9164_17626}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9c0f186bbddbcbb220114c15162ce379
+*** Element info: {Using=xpath, value=//*[@id='order-detail-content']/table/tbody/tr[1]/td[2]/label}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='order-detail-content']/table/tbody/tr[1]/td[2]/label"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-BTD2RPM', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\sai18\AppData\Local\Temp\scoped_dir9164_17626}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9c0f186bbddbcbb220114c15162ce379
+*** Element info: {Using=xpath, value=//*[@id='order-detail-content']/table/tbody/tr[1]/td[2]/label}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at com.automation.AutomationPractice.TC002_PreviousOrders.previousOrdersList(TC002_PreviousOrders.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test started Running:previousOrdersList]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\sai18\git\TestProject\AutomationSelenium\src\main\java\com\automation\AutomationPractice\failure_screenshots\previousOrdersList_20_05_2018_05_50_25.png'> <img src='C:\Users\sai18\git\TestProject\AutomationSelenium\src\main\java\com\automation\AutomationPractice\failure_screenshots\previousOrdersList_20_05_2018_05_50_25.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- previousOrdersList -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automation.AutomationPractice.TC002_PreviousOrders@22eeefeb]" name="tearDown" is-config="true" duration-ms="294" started-at="2018-05-20T16:50:25Z" finished-at="2018-05-20T16:50:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=previousOrdersList status=FAILURE method=TC002_PreviousOrders.previousOrdersList()[pri:1, instance:com.automation.AutomationPractice.TC002_PreviousOrders@22eeefeb] output=Test started Running:previousOrdersList]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endProcess()[pri:0, instance:com.automation.AutomationPractice.TC002_PreviousOrders@22eeefeb]" name="endProcess" is-config="true" duration-ms="184" started-at="2018-05-20T16:50:25Z" finished-at="2018-05-20T16:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endProcess -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.automation.AutomationPractice.TC002_PreviousOrders@22eeefeb]" name="endReport" is-config="true" duration-ms="373" started-at="2018-05-20T16:50:25Z" finished-at="2018-05-20T16:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.automation.AutomationPractice.TC002_PreviousOrders -->
+    </test> <!-- Previous -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>

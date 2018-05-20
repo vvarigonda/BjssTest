@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+
+	<listeners>
+		<listener class-name="com.automation.AutomationPractice.Listners.Listener"></listener>
+		<listener class-name="com.automation.AutomationPractice.Listners.RetryListener"></listener>
+	</listeners>
+
+	<test name="Purchase">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.automation.AutomationPractice.TC001_PurchaseTwoItems" />
+		</classes>
+	</test>
+	<test name="Previous">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.automation.AutomationPractice.TC002_PreviousOrders" />
+		</classes>
+	</test>
+</suite> <!-- RegressionSuite -->
